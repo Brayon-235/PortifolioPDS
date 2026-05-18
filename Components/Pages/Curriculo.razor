@@ -1,0 +1,102 @@
+﻿<h1>Currículo</h1>
+
+@code {
+
+}
+
+@page "/curriculo"
+
+<div class="curriculo-container">
+
+    <h1>Meu Currículo</h1>
+
+    <div class="secao">
+        <h2>Informações Pessoais</h2>
+
+        <p><strong>Nome:</strong> Brayon Lins</p>
+        <p><strong>Idade:</strong> 17 anos</p>
+        <p><strong>Cidade:</strong> Ji-Paraná - RO</p>
+    </div>
+
+    <div class="secao">
+        <h2>Objetivo</h2>
+
+        <p>
+            Busco desenvolver minhas habilidades na área de tecnologia,
+            adquirindo experiência profissional e conhecimento em programação
+            e desenvolvimento de sistemas.
+        </p>
+    </div>
+
+    <div class="secao">
+        <h2>Formação</h2>
+
+        <p>
+            Técnico em Informática - Em andamento
+        </p>
+    </div>
+
+    <div class="secao">
+        <h2>Habilidades</h2>
+
+        <ul>
+            <li>HTML e CSS</li>
+            <li>C#</li>
+            <li>Blazor</li>
+            <li>Banco de Dados</li>
+            <li>Lógica de Programação</li>
+        </ul>
+    </div>
+
+    <a href="/" class="btn-voltar">
+        Voltar
+    </a>
+
+</div>
+
+<style>
+    .curriculo-container {
+        width: 75%;
+        margin: 40px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+        .curriculo-container h1 {
+            color: #1d2b53;
+            margin-bottom: 30px;
+            font-size: 42px;
+        }
+
+    .secao {
+        margin-bottom: 30px;
+    }
+
+        .secao h2 {
+            color: #2f4db3;
+            margin-bottom: 10px;
+        }
+
+        .secao p,
+        .secao li {
+            font-size: 18px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .btn-voltar {
+        display: inline-block;
+        margin-top: 15px;
+        background-color: #1d2b53;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+</style>

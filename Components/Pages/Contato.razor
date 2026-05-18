@@ -1,0 +1,103 @@
+﻿<h1>Contato</h1>
+
+@code {
+
+}
+@page "/contato"
+
+<div class="contato-container">
+
+    <h1>Entre em Contato</h1>
+
+    <p class="texto">
+        Abra um caminho direto para conversa,
+        parceria ou oportunidade profissional.
+    </p>
+
+    <div class="info-contato">
+
+        <div class="card">
+            <h2>Email</h2>
+            <p>brayon@email.com</p>
+        </div>
+
+        <div class="card">
+            <h2>Telefone</h2>
+            <p>(69) 99999-9999</p>
+        </div>
+
+        <div class="card">
+            <h2>Instagram</h2>
+            <p>@@brayonlins</p>
+        </div>
+
+    </div>
+
+    <a href="/" class="btn-voltar">
+        Voltar
+    </a>
+
+</div>
+
+<style>
+    .contato-container {
+        width: 75%;
+        margin: 50px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+        .contato-container h1 {
+            font-size: 42px;
+            color: #1d2b53;
+            margin-bottom: 15px;
+        }
+
+    .texto {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 40px;
+    }
+
+    .info-contato {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #f4f4f4;
+        padding: 25px;
+        border-radius: 15px;
+        width: 250px;
+        transition: 0.3s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #2f4db3;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #444;
+            font-size: 18px;
+        }
+
+    .btn-voltar {
+        display: inline-block;
+        margin-top: 40px;
+        background-color: #1d2b53;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+</style>
